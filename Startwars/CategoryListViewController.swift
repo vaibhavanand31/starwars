@@ -18,9 +18,9 @@ class CategoryListViewController: UIViewController ,UITableViewDelegate,UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let backButton = UIBarButtonItem()
-//        backButton.title = "Back"
-//        categoryNavigationBar.topItem?.backBarButtonItem = backButton
+        let backButton = UIBarButtonItem()
+        backButton.title = "Back"
+        categoryNavigationBar.topItem?.backBarButtonItem = backButton
        
         films.fetchFilms{
             (filmsResult) -> Void in
