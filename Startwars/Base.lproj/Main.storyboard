@@ -329,20 +329,19 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FrT-VX-4pU">
-                                            <rect key="frame" x="315" y="7.5" width="91" height="40.5"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rRf-Zd-j6y">
+                                            <rect key="frame" x="366" y="7.5" width="40" height="40.5"/>
                                             <color key="tintColor" systemColor="systemYellowColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="40" id="CUC-mp-oNJ"/>
-                                                <constraint firstAttribute="height" constant="40" id="FS2-Us-ZIm"/>
+                                                <constraint firstAttribute="height" constant="40" id="Inv-dN-uGX"/>
+                                                <constraint firstAttribute="width" constant="40" id="uTS-4r-kww"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="FrT-VX-4pU" firstAttribute="leading" secondItem="Kfd-g1-CA8" secondAttribute="leading" constant="315" id="2AG-T4-k9i"/>
-                                        <constraint firstAttribute="trailing" secondItem="FrT-VX-4pU" secondAttribute="trailing" constant="8" id="V5T-hO-mkO"/>
-                                        <constraint firstAttribute="bottom" secondItem="FrT-VX-4pU" secondAttribute="bottom" constant="8" id="edZ-w0-ghr"/>
-                                        <constraint firstItem="FrT-VX-4pU" firstAttribute="top" secondItem="Kfd-g1-CA8" secondAttribute="top" constant="8" id="qJb-Jl-k8b"/>
+                                        <constraint firstItem="rRf-Zd-j6y" firstAttribute="top" secondItem="Kfd-g1-CA8" secondAttribute="top" constant="8" id="BU6-de-FCR"/>
+                                        <constraint firstAttribute="trailing" secondItem="rRf-Zd-j6y" secondAttribute="trailing" constant="8" id="I7S-UZ-GjQ"/>
+                                        <constraint firstAttribute="bottom" secondItem="rRf-Zd-j6y" secondAttribute="bottom" constant="8" id="nvp-bE-u3H"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
