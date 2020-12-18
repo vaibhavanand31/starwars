@@ -18,9 +18,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard
             let _ = (scene as? UIWindowScene),
-            let tableViewController = window?.rootViewController as? FavFilmsTableViewController else{ return }
+            let tabBarController = window?.rootViewController as? UITabBarController,
+            let favController = tabBarController.viewControllers![1] as? FavFilmsTableViewController,
+            let navController = tabBarController.viewControllers![0] as? UINavigationController,
+            let viewController = navController.topViewController as? ViewController
+
+        else{
+            print("error in scene delegate")
+            return
+            
+        }
         
-//        tableViewController.favFilms = favFilms
+        print(tabBarController.viewControllers)
+        viewController.favFilms = favFilms
+        favController.favFilms = favFilms
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,6 +61,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
         _ = favFilms.saveChanges()
+        print("did enter background")
     }
 
 

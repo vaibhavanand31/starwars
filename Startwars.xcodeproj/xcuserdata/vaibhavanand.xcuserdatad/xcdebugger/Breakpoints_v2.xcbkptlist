@@ -3,4 +3,162 @@
    uuid = "8A092A7C-FF81-4469-A096-AF3BB063EE2D"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FC566E2-65D9-497A-80EE-12B2528586BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Startwars/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "864DCB0B-A734-488C-84FD-98D3EA9CC5D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Startwars/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "298FB483-5EE1-45D7-B70F-F4518271C077"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Startwars/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F24063C-0645-415C-942F-857824801826"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Startwars/CategoryListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CategoryListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2F24063C-0645-415C-942F-857824801826 - 8ba4c78596487d5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Startwars.CategoryListViewController.categoryNavigationBar.getter : Swift.Optional&lt;__C.UINavigationBar&gt;"
+                  moduleName = "Startwars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhavanand/XcodeProjects/Startwars/Startwars/CategoryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2F24063C-0645-415C-942F-857824801826 - c0c8160bf3d79a9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Startwars.CategoryListViewController.categoryNavigationBar.setter : Swift.Optional&lt;__C.UINavigationBar&gt;"
+                  moduleName = "Startwars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhavanand/XcodeProjects/Startwars/Startwars/CategoryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "2F24063C-0645-415C-942F-857824801826 - e85de96fb60fbe48"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Startwars.CategoryListViewController.categoryNavigationBar.modify : Swift.Optional&lt;__C.UINavigationBar&gt;"
+                  moduleName = "Startwars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhavanand/XcodeProjects/Startwars/Startwars/CategoryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "2F24063C-0645-415C-942F-857824801826 - 80e88dbeee6f986"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Startwars.CategoryListViewController.categoryNavigationBar.modify : Swift.Optional&lt;__C.UINavigationBar&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Startwars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhavanand/XcodeProjects/Startwars/Startwars/CategoryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "2F24063C-0645-415C-942F-857824801826 - ffc23c6ae01fbc22"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Startwars.CategoryListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Startwars.CategoryListViewController"
+                  moduleName = "Startwars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhavanand/XcodeProjects/Startwars/Startwars/CategoryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  uuid = "2F24063C-0645-415C-942F-857824801826 - d1945476a98de16f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Startwars.CategoryListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Startwars.CategoryListViewController&gt;"
+                  moduleName = "Startwars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhavanand/XcodeProjects/Startwars/Startwars/CategoryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "223">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
