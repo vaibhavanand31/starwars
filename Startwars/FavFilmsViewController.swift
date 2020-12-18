@@ -13,8 +13,11 @@ class FavFilmsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(favFilms)
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
     }
     
     // MARK: - Table view data source
@@ -36,7 +39,6 @@ class FavFilmsTableViewController: UITableViewController {
         return cell
     }
   
-    
     /*
     // MARK: - Navigation
 
@@ -46,7 +48,6 @@ class FavFilmsTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
 
 class FavFilmViewCell: UITableViewCell {

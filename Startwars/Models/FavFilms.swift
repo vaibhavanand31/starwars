@@ -24,6 +24,7 @@ class FavFilms {
     
     func addFavFilm(title: String, episodeId: Int, openingCrawl: String, director: String, producer: String, releaseDate: String, charactersURLs: [String], planetsURLs: [String], starshipsURLs: [String], vehiclesURLs: [String], speciesURLs: [String], isFav: Bool){
         favFilms.append(Film(title: title, episodeId: episodeId, openingCrawl: openingCrawl, director: director, producer: producer, releaseDate: releaseDate, charactersURLs: charactersURLs, planetsURLs: planetsURLs, starshipsURLs: starshipsURLs, vehiclesURLs: vehiclesURLs, speciesURLs: speciesURLs))
+        saveChanges()
     }
     
     func removeFavFilm(title: String){
@@ -32,7 +33,7 @@ class FavFilms {
         }
     }
     
-    func saveChanges() -> Bool {
+    @discardableResult func saveChanges() -> Bool {
         return NSKeyedArchiver.archiveRootObject(favFilms, toFile: favFilmsArchieveURL.path)
     }
 }

@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var favFilms: FavFilms!
+    
     @IBAction func films(_ sender: Any) {
         performSegue(withIdentifier: "categoryList", sender: self)
     }
@@ -36,7 +38,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "categoryList") {
             if let controllerListViewController: CategoryListViewController = segue.destination as? CategoryListViewController {
-                
+                controllerListViewController.favFilms = favFilms
             }
         }
     }
